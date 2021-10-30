@@ -43,13 +43,6 @@ header {
   border-bottom: 5px solid black;
 }
 
-.footer {
-  
-  color: black;
-  text-align: center;
-  opacity: 0.6;
-}
-
 figure {
   margin-bottom: 40px;
   border: 1px solid #ddd;
@@ -63,13 +56,6 @@ img {
   padding: 2px;
   width: 600px;
   height: auto;
-}
-
-#contact-me {
-  margin-bottom: auto;
-  padding: 20px 10px 40px 10px;
-  border-top: 3px solid black;
-  background-color: #3e5ab3;
 }
 
 label {
@@ -96,6 +82,16 @@ button {
   color: #FDF8F5;
 }
 
+input[type=text]{
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 /* Class Selectors */
 
 .text-center {
@@ -108,4 +104,25 @@ button {
 
 .text-left {
   text-align: left;
+}
+
+.footer {
+  color: black;
+  text-align: center;
+  opacity: 0.6;
+}
+
+/* Ids Selectors*/
+#contact-me {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: #4F4846;
+}
+
+#contact-me li {
+  display: block;
+  text-align: center;
+  padding: 0px 20px;
+  text-decoration: none;
 }
